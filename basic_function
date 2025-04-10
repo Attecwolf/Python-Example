@@ -1,0 +1,25 @@
+
+
+
+# Eine function wird über def definiert.
+
+
+def Add(x, y) -> int:
+    """Addiere zwei Zahlen und gebe das Ergebnis zurück."""
+    return x + y
+
+#Breakdown
+# Add ist der Name der Funktion du kannst sie nennen wie du willst.
+# x und y sind die Parameter die du der Funktion übergibst. Damit callst du sie auch
+# Würden wir x=1 und y=2 übergeben, sind die Paramter optional und wir müssen sie nicht pro call definieren. 
+# return ist das was die Funktion zurückgibt. In diesem Fall die Summe von x und y. return beendet auch die Funktion.
+
+
+#Wie call ich die Funktion?
+Add(1, 2) # Das ist der Call der Funktion. 
+# Hier wird NICHTS wiedergegeben, weil wir die Funktion nicht in einer Variable speichern, die das ergebnis hält.
+
+x = Add(1, 2) # Hier wird das Ergebnis in der Variable x gespeichert.
+# Jetzt können wir sie printen
+
+print(x) 
